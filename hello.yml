@@ -3,18 +3,24 @@
 
 
 
-
+#What is yml? What is it used for?
 
 jobs:
   say_hello:
     steps:
       -name:
+        ls -la
 
 
 
-      -name: Install pytest
+
+      - name: Install pytest
        run: 
         echo "$ pip install pytest
         pip install pytest
         echo "$ pytest --version"
         pytest --version
+      - name: Test calc library
+        run: |
+          echo "$ pytest test_calc.py"
+          pytest test_calc.py
