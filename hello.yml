@@ -1,5 +1,10 @@
 
+name: Unit Testing
 
+on:
+  push: 
+    branches: ['main']
+  workflow
 
 
 
