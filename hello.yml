@@ -1,0 +1,20 @@
+
+
+
+
+
+
+
+jobs:
+  say_hello:
+    steps:
+      -name:
+
+
+
+      -name: Install pytest
+       run: 
+        echo "$ pip install pytest
+        pip install pytest
+        echo "$ pytest --version"
+        pytest --version
