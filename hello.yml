@@ -29,3 +29,7 @@ jobs:
         run: |
           echo "$ pytest test_calc.py"
           pytest test_calc.py
+      - name: Test parser library
+        run: |
+          echo "$ node --version"
+          node --version

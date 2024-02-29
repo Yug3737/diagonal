@@ -1,1 +1,3 @@
 CLASS Notes
+Integration Testing: When you have 3000 tests, you want to set up github actions to connect to real resources
+                        and databases.
